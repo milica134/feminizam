@@ -1,0 +1,72 @@
+*
+{
+	font-family: Times New Roman;
+	color: black;
+	margin:0;
+	padding: 0;
+	
+}
+
+.prvi, .drugi
+{
+	font-size: 25px;
+	margin:10px;
+	width: 65%;
+	margin-left:200px;
+}
+h1
+{
+	background-image: url('slike/pozadina9.jpg');
+	text-align: center;
+	padding: 30px;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	box-shadow: 10px 10px 10px 10px gray;
+}
+
+p
+{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	width:90%;
+}
+
+h3
+{
+	font-family: arial;
+	font-size: 35px;
+	padding: 20px;
+	margin-left:50px;
+}
+.aktivna
+{
+	background-color: gray;
+}
+dl
+{
+	list-style-type: square;
+	margin-left: 200px;
+	font-size: 30px;
+}
+.photo
+{
+    width: 90%;
+	height: 450px;
+	border: solid 2px black;
+	padding: 20px;
+}
+.galerija a, .galerija1 a
+{
+	flex:1;
+}
+.galerija {
+    display: flex;
+    gap: 10px;
+	padding: 50px;
+}
+
+body
+{
+	background-color: pink;
+}
